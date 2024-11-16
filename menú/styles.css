@@ -1,0 +1,262 @@
+
+@font-face {
+  font-family: 'MyFont';
+  src: url('/home/keso/MEDIA/UDB/Ciclo 2 - 2024/Lenguaje de marcado/Menú Mike\'s Burgers/fonts/TGS.ttf') format('truetype');
+  src: url('/home/keso/MEDIA/UDB/Ciclo 2 - 2024/Lenguaje de marcado/Menú Mike\'s Burgers/fonts/AD.otf') format('opentype');
+}
+
+body {
+  Background-image:url(imagenes/Background.jpg);
+    background-position: right top, left top;
+    background-repeat: repeat;
+    padding: 48px;
+    font-family: 'MyFont','AD.otf';
+  }
+
+  .container-nav{
+    background-color:black ; /*#3E333F*/
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+    padding-bottom: 15px;
+}
+
+.container-nav a{
+
+    color:#F7DC6F;
+    font-size: 25px;
+    font-family: "Roboto", sans-serif;
+    
+}
+
+.container-nav a:hover{
+    color:#F2613F;
+}
+
+ 
+  h1 {
+
+    color:#e64526;
+    font-size: 32px;
+    margin-top: 0;
+    margin-bottom: 15px;
+    
+  }
+  
+  .titulo{
+    color:#fab31a;
+    font-family: 'MyFont';
+    font-size:64px;
+  }
+  h2 {
+    font-size: 36px;
+    color:#e64526;
+
+  }
+  
+  .established {
+    font-style: italic;
+    font-family: sans-serif;
+    color:#fff;
+  }
+  
+  h1, h2, p, h3 {
+    font-weight: lighter;
+    text-align: center;
+
+  }
+  
+  .menu {
+
+    width: 80%;
+    margin-top:192px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+    max-width: 720px;
+    background-color:#000000DD;
+  }
+
+
+  
+  hr {
+    height: 2px;
+    background-color: brown;
+    border-color: brown;
+    margin:16px 0;
+  }
+  
+  .bottom-line {
+    margin-top: 25px;
+  }
+  
+  .item p {
+    display: inline-block;
+    margin-top: 16px;
+    margin-bottom: 5px;
+    font-size: 22px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  }
+
+      .priceb{
+    padding: 16px 0;
+    text-align: center;
+    width: 25%;
+    color:#f9f9f9;
+    font-weight:bolder; 
+    background-color:#00000099;
+    border-radius: 25px 25px 25px 25px;
+  }
+ 
+  .sinAlcohol{
+    border-radius:50px;
+  }
+
+  .flavorb {
+
+    color:#fff;
+    text-align: right;
+    width: 75%;
+    padding: 16px 0;
+    font-weight: bolder;
+  background-color: #e6452699;
+    border-radius: 50px 8px 8px 50px;
+    box-shadow:#000 -2px 0px 10px;
+    position:relative;
+    z-index:100;
+ }
+
+  
+  .flavor {
+    padding: 16px 0;
+    text-align: left;
+    width:75%;
+    color:#f9f9f9;
+    background-color: #e6452699;
+    border-radius: 8px 50px 50px 8px;
+    box-shadow:#000 -2px 0px 10px;
+    font-weight: bold;
+  }
+  
+  .price {
+    color:#fff;
+    text-align: center;
+    width: 25%;
+    padding: 16px 0;
+    font-weight: bolder;
+     background-color:#00000099;
+    border-radius: 25px 25px 25px 25px;
+  }
+
+  .priceExtra {
+    color:#fff;
+    text-align: center;
+    padding: 16px 0;
+    font-size:22px;
+    font-weight: bolder;
+     background-color:#00000099;
+    border-radius: 25px 25px 25px 25px;
+  }
+
+
+.img1{
+  display:inline-flex;
+  margin-right:-256px;
+  width:256px;
+  border-radius:50px;
+  margin-top:8px;
+
+}
+
+.imgExtra{
+  display:block;
+ padding:inherit;
+ margin: auto;
+  width:480px;
+  border-radius:50px;
+  margin-top:8px;
+}
+  .img2{
+    display:inline-flex;
+  margin-left:-256px;
+  width:256px;
+  border-radius:50px;
+  margin-top:8px;
+
+}
+  /* FOOTER */
+  
+  footer{
+    background-color: black;
+    text-align: center;
+    padding-top: 10px;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+    font-family: "Roboto", sans-serif;
+}
+
+footer a:hover{
+    color:#EEDF7A;
+}
+
+.footer-link{
+    text-decoration: none;
+    color:#F2F2F2;
+   padding:0 35px 0 35px;
+   font-family: "Roboto", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+
+}
+
+  
+  
+  
+ /*@MEDIA*/
+
+  @media screen and (max-width:720px){
+
+     .imgExtra,.sinAlcohol{
+        display:inline-flex;
+        margin:auto;
+        width:296px;
+      } 
+
+}
+  @media screen and (max-width: 480px){
+   .titulo{
+     font-size:24px
+   } 
+
+    
+
+      .subtitulo{
+        font-size:18px;
+      }
+  
+          
+   .img1,.img2{
+        display:inline-flex;
+        width:198px;
+              margin-right:-198px;
+     }
+
+     .sinAlcohol,.imgExtra{
+       width:230px;
+       margin:auto;
+     }
+        }
+  @media screen and (max-width: 340px){
+
+  .img1,.img2,.imgExtra,.sinAlcohol{
+    display:none;
+  }
+
+}
+
+

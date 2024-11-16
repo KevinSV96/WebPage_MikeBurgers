@@ -1,0 +1,105 @@
+body{
+    background-image:url(../images/backGroundMB.jpeg);
+    background-position: right top, left top;
+    background-repeat: repeat;
+    padding: 48px;
+    padding-top: 8rem;
+}
+
+    .container-nav{
+        background-color:black ; /*#3E333F*/
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        z-index: 1000;
+        padding-bottom: 15px;
+    }
+    .container-nav a{
+    
+        color:#F7DC6F;
+        font-size: 25px;
+        font-family: "Roboto", sans-serif;
+        font-weight: bolder;
+        
+        
+    }
+    .container-nav a:hover{
+        color:#F2613F;
+    }
+
+    h1{
+        text-align: center;
+        margin: 60px 0 60px 0;
+        padding-left:40px;
+        color: #A9333A;
+        }
+h3{
+    text-align: center;
+    
+}
+
+.customT{
+    border: 2px solid #F7DC6F;
+    margin: 0 0 0 0;
+    opacity: 1;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+}
+.customB{
+    border: 2px solid #F7DC6F;
+    margin: 0 0 0 0;
+    opacity: 1;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+}
+
+.Historia{
+    padding-top: 8rem;
+    padding-bottom: 8rem;
+}
+
+
+    footer{
+        background-color: black;
+        text-align: center;
+        margin-top: 8rem;
+        padding-top: 20px;
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        z-index: 1000;
+        font-family: "Roboto", sans-serif;
+        
+    }
+    footer a:hover{
+        color:#EEDF7A;
+    }
+    .footer-link{
+        text-decoration: none;
+        color:#F2F2F2;
+       padding:0 35px 0 35px;
+       font-family: "Roboto", sans-serif;
+        font-weight: 900;
+        font-style: normal;
+    
+    }
+    
+    
+    .tm{
+        color:#F7DC6F;
+        margin-bottom:0px;
+        margin-top: 20px;
+        padding-bottom: 50px;
+        font-family: "Roboto", sans-serif;
+        font-weight: 900;
+        font-style: normal;
+        
+    }
