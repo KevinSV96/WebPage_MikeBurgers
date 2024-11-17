@@ -24,6 +24,38 @@ body{
     
 }
 
+.navbar-toggler {
+    border-color: #F7DC6F !important; /* Cambia el color del borde del botón */
+}
+
+.navbar-toggler-icon {
+    background-color: transparent !important; /* Asegura que no haya fondo negro */
+    background-image: none !important; /* Quita el ícono predeterminado */
+    border: 2px solid #F7DC6F !important; /* Añade un borde de color para hacerlo visible */
+    position: relative;
+}
+
+/* barritas amarillas*/
+.navbar-toggler-icon::before {
+    content: '';
+    background-color: #F7DC6F; 
+    width: 25px;
+    height: 3px;
+    display: block;
+    margin: 6px auto;
+    border-radius: 2px;
+}
+/* barritas amarillas*/
+.navbar-toggler-icon::after {
+    content: '';
+    background-color: #F7DC6F; 
+    width: 25px;
+    height: 3px;
+    display: block;
+    margin: 6px auto;
+    border-radius: 2px;
+}
+
 .container-nav a:hover{
     color:#F2613F;
 }
